@@ -134,18 +134,11 @@ def create_semantic_routes() -> List[Route]:
             "Can you tell me a fun fact?",
             "What time is it in Tokyo?",
             "Who wrote Romeo and Juliet?",
-            "Who is the Prime Minister of India?",
             "Who is the CEO of Tesla?",
-            "Who is the President of the United States?",
-            "What is the capital of Germany?",
-            "Tell me about the Eiffel Tower",
-            "Tell me about Albert Einstein",
-            "Explain simply what is photosynthesis",
-            "Explain simply how a refrigerator works",
-            "When was the Declaration of Independence signed?",
-            "When was World War 2?",
-            "What is the largest ocean in the world?",
-            "How tall is Mount Everest?",
+            "What is the boiling point of water?",
+            "Where is the Eiffel Tower located?",
+            "Who wrote the play Hamlet?",
+            "When was the first computer invented?",
         ],
     )
     
@@ -167,7 +160,7 @@ class SemanticQueryRouter:
         self.encoder: Optional[SentenceTransformer] = None
         self.routes: List[Route] = []
         self.route_embeddings: Dict[str, np.ndarray] = {}
-        self.similarity_threshold: float = 0.4
+        self.similarity_threshold: float = 0.35
         self._initialize_router()
     
     def _initialize_router(self) -> None:
