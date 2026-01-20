@@ -1,0 +1,12 @@
+# Semantic Router for LLM Gateway
+# ================================
+# Python 3.9+ compatible
+
+# Sentence embeddings (for semantic routing)
+sentence-transformers>=2.2.2
+
+# Beautiful terminal UI
+rich>=13.7.0
+
+# NumPy for vector operations
+numpy>=1.21.0
