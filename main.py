@@ -108,6 +108,11 @@ def create_semantic_routes() -> List[Route]:
             "Explain the mathematical proof behind transformer attention mechanisms",
             "Debug this race condition and explain why the mutex implementation fails under high concurrency",
             "Evaluate the ethical implications of using AI in healthcare diagnostics with regulatory considerations",
+            "Derive the formula for this equation.",
+            "Explain the mathematical proof step-by-step.",
+            "Show the logic behind this theorem.",
+            "Calculate the derivative of this function.",
+            "Prove that x is equal to y in this context.",
         ],
     )
     
